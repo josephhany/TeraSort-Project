@@ -1,0 +1,22 @@
+In order to compile the program follow the steps:
+
+	1) open the the program folder
+
+	2) right click with the mouse on a free space in the folder and choose open in terminal
+	
+	(or place your folder in your "Home" directory then open the terminal and write this command "cd 900182870_Joseph_Lab5_Exercise_1/second_attempt")
+
+	3) write "make" in the terminal and press "Enter" key
+
+In order to test and run the program follow the steps:
+
+	1) open a folder called "bin" in the main program folder
+
+	2) right click with the mouse on a free space in the folder and choose open in terminal
+
+	(or place your folder in your "Home" directory then open the terminal and write this command "cd 900182870_Joseph_Lab5_Exercise_1/second_attempt/bin")
+
+	3) write "./FINAL shuffled_students.txt" in the terminal window and press "Enter" key
+
+./FINAL --input-file input.binary --output-file output.binary --mappers 3 --reducers 3 --sample-size 5
+./FINAL --input-file unsorted-1gb --output-file output.binary --mappers 30 --reducers 10 --sample-size 1000
